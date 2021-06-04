@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+</head>
+<style>
+h1 {
+	background-color: lightblue;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("https://www.wikaautocare.com/wp-content/uploads/2020/10/beach.jpg");
+
+  min-height: 1100px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+
+<body>
+  <div class="bg-img">
+  <form action="/action_page.php" class="container">
+  
+    <h1>Daftar Member</h1>
+
+  <i class="fas fa-user fa-3x"></i>
+  <label for="NIP">NIP:</label>
+  <br>
+  <input type="text" id="NIP" name="NIP">
+  <br><br>
+  <i class="fas fa-file-signature fa-3x"></i>
+  <label for="fname">Full name:</label>
+  <br>
+  <input type="text" id="fname" name="fname">
+  <br><br>
+  <i class="fas fa-birthday-cake fa-3x"></i>
+  <label for="birthday">Birthday:</label>
+  <br>
+  <input type="date" id="birthday" name="birthday">
+  <br><br>
+  <i class="fas fa-venus-mars fa-3x"></i>
+  <label for="gender">Gender:</label>
+  <br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <br><br>
+  <i class="fas fa-map-marked-alt fa-3x"></i>
+  <label for="tarea">Address:</label>
+  <br>
+<textarea id="tarea" name="address" rows="4" cols="30">
+  </textarea>
+  <br><br>
+  <i class="fas fa-phone-alt fa-3x"></i>
+  <label for="pnumber">Phone number:</label>
+  <br>
+  <input type="text" id="pnumber" name="pnumber">
+  <br><br><br>
+  <i class="fas fa-file-image fa-3x"></i>
+  <label for="img">Photo:</label>
+  <input type="file" id="img" name="img" accept="image/*">
+  <br><br>
+  <input type="submit" value="Daftar">
+   </form>
+</div>
+
+
+</body>
+</html>
