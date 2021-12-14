@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @majestic510
+- 👋 Hi, I’m Alvino R E or @majestic510
 - 👀 I’m interested in software engineering
 - 🌱 I’m currently learning java, html, and css
 - 💞️ I’m looking to collaborate on IT based corporation
